@@ -12,10 +12,6 @@ In their existing market, the sales team has classified all customers into 4 seg
 
 You are required to help the manager to predict the right group of the new customers.
 
-## Neural Network Model
-
-Include the neural network model diagram.
-
 ## DESIGN STEPS
 
 ### STEP 1:
@@ -92,25 +88,25 @@ tf.argmax(model.predict([[0., 0., 0., 6., 0.,3.,5.,6.]]),axis=1)
 
 ## Dataset Information
 
-Include screenshot of the dataset
+![image](https://user-images.githubusercontent.com/75235488/189712954-ea5e7d8a-a774-458d-91de-5eb299f53f1e.png)
 
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-Include your plot here
+![image](https://user-images.githubusercontent.com/75235488/189713155-b7103658-6bd0-46c6-93c2-6f1b063857ad.png)
 
 ### Classification Report
 
-Include Classification Report here
+![image](https://user-images.githubusercontent.com/75235488/189713249-3e258de2-a21e-46a2-b060-1877fd0fae48.png)
 
 ### Confusion Matrix
 
-Include confusion matrix here
-
+![image](https://user-images.githubusercontent.com/75235488/189713310-ebeb788f-1b20-49d2-950a-f90058a4e127.png)
 
 ### New Sample Data Prediction
 
-Include your sample input and output here
+![image](https://user-images.githubusercontent.com/75235488/189713377-7bf356d9-150b-483d-837e-166197d0a654.png)
 
 ## RESULT
+Thus a Neural Network Classification Model is created and executed successfully
